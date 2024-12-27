@@ -5,3 +5,7 @@
 
 使用方式：
 下载项目中的所有文件，然后修改“crawler_tasks.txt”中的内容（表示每个贴吧爬虫的任务数，按中文字符个数计算）。然后运行“tieba_crawler.py”进行贴吧爬虫（注意切换IP防止被封，但通常封禁后一段时间会解封）。接着运行“words_extract.py”，最后运行“feature_word_extract.py”得到最终报告。报告将会被保存在“report.txt”中。
+
+项目实施细节可以在
+tieba-feature-word_project_plan.docx
+中找到。
